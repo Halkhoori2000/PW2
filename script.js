@@ -809,7 +809,7 @@ function openPopup(popupId) {
     if (popupId === 'education1-popup') {
         content = `
                     <h3>The Pennsylvania State University</h3>
-                    <iframe src="BS_CMPSCMATH.pdf" style="width:100%; height:500px; border:none; margin-top:20px;"></iframe>
+                    <iframe data-removed="degree available on request" src="about:blank" style="width:100%; height:500px; border:none; margin-top:20px;"></iframe>
 
         `;
     } else if (popupId === 'experience1-popup') {
@@ -823,7 +823,7 @@ function openPopup(popupId) {
             } else if (popupId === 'internship4-popup') {
         content = `
             <h3>Redteam Hacker Academy</h3>
-            <img src="Hamdan Surour Alkhoori.jpg" alt="Experience Image" style="width:100%; margin-top:20px;">
+            <img src="experience-1.jpg" alt="Experience Image" style="width:100%; margin-top:20px;">
         `;
             } else if (popupId === 'internship3-popup') {
         content = `
